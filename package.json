@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/types/npm-rethinkdb.git"
+    "url": "git+https://github.com/EnriqueSampaio/rethinkdb.git"
   },
   "author": {
-    "name": "Blake Embrey",
-    "email": "hello@blakeembrey.com",
-    "url": "http://blakeembrey.me"
+    "name": "Enrique Sampaio",
+    "email": "enriquesampaio@gmail.com",
+    "url": "https://github.com/EnriqueSampaio"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/types/npm-rethinkdb/issues"
+    "url": "https://github.com/EnriqueSampaio/rethinkdb/issues"
   },
-  "homepage": "https://github.com/types/npm-rethinkdb#readme",
+  "homepage": "https://github.com/EnriqueSampaio/rethinkdb#readme",
   "devDependencies": {
     "rethinkdb": "^2.3.3",
     "ts-node": "^2.0.0",

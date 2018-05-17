@@ -99,7 +99,7 @@ declare namespace rethinkdb {
     r.Zip<RStream<Left & Right>> {}
 
   export interface RSelection <T> extends
-    r.Run<CursorResult<T>>,
+    r.Run<CursorResult<T> | ArrayResult<T>>,
     r.Operations<T>,
     r.Query,
     r.CoerceTo<T>,
