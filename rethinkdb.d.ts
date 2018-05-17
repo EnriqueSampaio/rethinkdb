@@ -707,7 +707,7 @@ declare namespace rethinkdb {
   type NestedFieldsSelector = string | string[] | NestedFieldsObject | NestedFieldsObject[];
 
   export interface RTableSlice <T> extends
-    r.Run<CursorResult<T>>,
+    r.Run<ArrayResult<T>>,
     r.Query,
     r.Configurable,
     r.Operations<T>,
